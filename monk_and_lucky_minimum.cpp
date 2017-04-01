@@ -27,11 +27,11 @@ int main()
             if(tmp == a[i])
                 count++;
         }
-        if(count%2==0){
-            cout<<"Lucky";
+        if(count%2!=0){
+            cout<<"Lucky\n";
         }
         else
-            cout<<"Unlucky";
+            cout<<"Unlucky\n";
 
 
         test--;
